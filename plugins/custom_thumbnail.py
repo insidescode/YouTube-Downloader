@@ -51,7 +51,7 @@ async def delete_thumbnail(bot, update):
         pass
     await bot.send_message(
         chat_id=update.chat.id,
-        text ="**✅ Custom Thumbnail cleared succesfully**",
+        text ="**✔️ Custom Thumbnail cleared succesfully**",
         reply_to_message_id=update.message_id
     )
 
